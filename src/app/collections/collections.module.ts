@@ -1,0 +1,15 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { CollectionsRoutingModule } from './collections-routing.module';
+import { SharedModule } from '../shared/shared.module';
+import { TableComponent } from './table/table.component';
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,
+    CollectionsRoutingModule,
+    SharedModule,
+    TableComponent
+  ]
+})
+export class CollectionsModule { }
